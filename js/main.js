@@ -6,7 +6,7 @@ function frezowanie(){
     document.getElementById("wynik_pos").innerHTML = "";
     document.getElementById("ankieta").innerHTML = this.responseText;
     document.getElementById("menu1").style.backgroundColor = "#838181";
-    document.getElementById("menu1").style.boxShadow = "0px 0px 80px 1px #0ff";
+    document.getElementById("menu1").style.boxShadow = "0px 0px 80px 1px #07f";
     document.getElementById("menu2").style.backgroundColor = "#555555";
     document.getElementById("menu2").style.boxShadow = "none";
     document.getElementById("menu3").style.backgroundColor = "#555555";
@@ -52,7 +52,7 @@ function wiercenie(){
     document.getElementById("menu1").style.backgroundColor = "#555555";
     document.getElementById("menu1").style.boxShadow = "none";
     document.getElementById("menu2").style.backgroundColor = "#838181";
-    document.getElementById("menu2").style.boxShadow = "0px 0px 80px 1px #0ff";
+    document.getElementById("menu2").style.boxShadow = "0px 0px 80px 1px #07f";
     document.getElementById("menu3").style.backgroundColor = "#555555";
     document.getElementById("menu3").style.boxShadow = "none";
   }
@@ -95,7 +95,7 @@ function rozwiercanie(){
     document.getElementById("menu2").style.backgroundColor = "#555555";
     document.getElementById("menu2").style.boxShadow = "none";
     document.getElementById("menu3").style.backgroundColor = "#838181";
-    document.getElementById("menu3").style.boxShadow = "0px 0px 80px 1px #0ff";
+    document.getElementById("menu3").style.boxShadow = "0px 0px 80px 1px #07f";
   }
   xhttp.open("GET", "rozwiercanie.html", true);
   xhttp.send();
