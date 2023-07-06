@@ -12,23 +12,23 @@
 
 <body>
 
-  <p>Kalkulator parametrów obróbki skrawaniem</p>
+  <div class="title"><p>Kalkulator parametrów obróbki skrawaniem</p></div>
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-  <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
 
-  <button onclick="frezowanie()">Frezowanie</button>
-  <button onclick="wiercenie()">Wiercenie</button>
-  <button onclick="rozwiercanie()">Rozwiercanie</button>
 
-
+<div class="flex-parent jc-center">
+  <button id="menu1" class="button button1" onclick="frezowanie()">Frezowanie</button>
+  <button id="menu2" class="button button1" onclick="wiercenie()">Wiercenie</button>
+  <button id="menu3" class="button button1" onclick="rozwiercanie()">Rozwiercanie</button>
+</div>
+  <br><br><br>
   <div id="ankieta"></div>
+  <br><br>
+  <div class="wynik">
   <div id="wynik_obr"></div>
   <div id="wynik_pos"></div>
-
-
-
-
+  </div>
 
 </body>
 

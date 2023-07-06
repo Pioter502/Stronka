@@ -1,6 +1,7 @@
 <div>
   <div style="display: inline-block;">
-  <label>Materiał do obróbki</label>
+    <div class="rameczka">
+    <label>Materiał do obróbki</label>
   <br>
   <select id="drill_material">
     <option value="0">---</option>
@@ -9,8 +10,10 @@
     <option value="8">Stal nierdzewna</option>
     <option value="40">Tworzywo Sztuczne</option>
   </select>
+    </div>
   </div>
   <div style="display: inline-block;">
+    <div class="rameczka">
     <label>Materiał Narzędzia</label>
     <br>
     <select id="drill_tool_material">
@@ -18,8 +21,11 @@
       <option value="4">Węglik Spiekany (VHM)</option>
       <option value="1">Stal Szybkotnąca (HSS)</option>
     </select>
+    </div>
   </div>
+  <br><br>
   <div>
+    <div class="rameczka">
     <label>Średnica Narzędzia [mm]</label>
     <br>
     <select id="drill_tool_diameter">
@@ -45,8 +51,9 @@
       <option value="19">19</option>
       <option value="20">20</option>
     </select>
+    </div>
   </div>
-  <button onclick="wiercenie_param()">Oblicz</button>
+  <button class="button button_submit" onclick="wiercenie_param()">Oblicz</button>
 </div>
 
 

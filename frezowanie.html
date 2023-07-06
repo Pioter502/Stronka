@@ -1,5 +1,6 @@
 <div>
   <div style="display: inline-block;">
+    <div class="rameczka">
     <label>Materiał do obróbki</label>
     <br>
     <select id="mill_material">
@@ -9,8 +10,10 @@
       <option value="20">Stal nierdzewna</option>
       <option value="100">Tworzywo Sztuczne</option>
     </select>
+    </div>
   </div>
   <div style="display: inline-block;">
+    <div class="rameczka">
     <label>Materiał Narzędzia</label>
     <br>
     <select id="mill_tool_material">
@@ -18,9 +21,11 @@
       <option value="4">Węglik Spiekany (VHM)</option>
       <option value="0.7">Stal Szybkotnąca (HSS)</option>
     </select>
+    </div>
   </div>
-  <br>
+  <br><br>
   <div style="display: inline-block;">
+    <div class="rameczka">
     <label>Średnica Narzędzia [mm]</label>
     <br>
     <select id="mill_tool_diameter">
@@ -46,8 +51,10 @@
       <option value="19">19</option>
       <option value="20">20</option>
     </select>
+    </div>
   </div>
   <div style="display: inline-block;">
+    <div class="rameczka">
     <label>Ilość ostrzy</label>
     <br>
     <select id="mill_tool_cutting_edges">
@@ -59,9 +66,10 @@
       <option value="5">5</option>
       <option value="6">6</option>
     </select>
+    </div>
   </div>
-  <br>
-  <button onclick="frezowanie_param()">Oblicz</button>
+  <br><br>
+  <button class="button button_submit" onclick="frezowanie_param()">Oblicz</button>
 </div>
 
 
