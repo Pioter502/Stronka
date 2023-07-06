@@ -71,7 +71,7 @@ function wiercenie_param(){
     let posuw;
     obroty = (1000*(drill_mat*drill_tool_material))/(Math.PI*drill_tool_diameter);
     posuw = drill_tool_diameter*drill_mat*1.2*drill_tool_material;
-    if(drill_mat == 0 || drill_tool_material == 0 || dill_tool_diameter == 0){
+    if(drill_mat == 0 || drill_tool_material == 0 || drill_tool_diameter == 0){
       document.getElementById("wynik_obr").innerHTML = "Brak pełnych danych";
       document.getElementById("wynik_pos").innerHTML = "Uzupełnij formularz";
     } else {
